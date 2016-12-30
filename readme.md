@@ -32,4 +32,9 @@ To run IDLE3 while `venv` is activated use the following command. Then browse an
 <li>Sit tight, bot will start playing!</li>
 </ul>
 
-## This application is still in development phase. 
+#### References
+[Pyautogui Examples](https://pyautogui.readthedocs.io/en/latest/introduction.html#examples "Pyautogui Examples")
+[Chapter 18 – Controlling the Keyboard and Mouse with GUI Automation](https://automatetheboringstuff.com/chapter18/ "Chapter 18 – Controlling the Keyboard and Mouse with GUI Automation")
+
+### This application is still in development phase. 
+
