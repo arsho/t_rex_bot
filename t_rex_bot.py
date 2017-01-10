@@ -22,7 +22,7 @@ ly, ry = ry, ly
 print lx, ly, rx, ry, t_rex
 time.sleep(2)
 pyautogui.press("space")
-im = pyautogui.screenshot(region=(lx,ry, rx-lx, ry-ly))
+im = pyautogui.screenshot(region=(lx,ly, rx-lx, ry-ly))
 im.show()
 
 dragon_x=505
