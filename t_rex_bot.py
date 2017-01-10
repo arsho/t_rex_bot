@@ -22,7 +22,7 @@ ly, ry = ry, ly
 print lx, ly, rx, ry, t_rex
 time.sleep(2)
 pyautogui.press("space")
-im = pyautogui.screenshot(region=(lx,ry, rx-lx, ly-ry))
+im = pyautogui.screenshot(region=(lx,ry, rx-lx, ry-ly))
 im.show()
 
 dragon_x=505
@@ -38,6 +38,8 @@ start = time.time()
 try:
     while True:
         c = get_pixel_colour(dragon_x, dragon_y)
+        end = time.time()
+        print(end - start)
         if c!=bg_color and c!=white_color:
             end = time.time()
             print(end - start)
