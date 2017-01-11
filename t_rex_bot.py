@@ -34,7 +34,7 @@ def jump_if_blocked():
         for j in xrange(0, h):
             if im.getpixel((i, j)) == blocker_color_white_bg or im.getpixel((i, j)) == blocker_color_black_bg:
                 count += 1
-    if count > 250:
+    if count*2 > (rx-lx):
         pyautogui.press("space")
 
 try:
