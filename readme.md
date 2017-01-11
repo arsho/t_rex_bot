@@ -1,5 +1,5 @@
  <p>
-Google Chrome offline game (T Rex) bot using Python. 
+Google Chrome offline game (T Rex) bot using Python.
 **You need to turn off your internet connection to run this program.**
 </p>
 <h2>
@@ -19,8 +19,9 @@ To use this in virtual environment open a terminal (I am using Ubuntu 15.04 and 
 2. Install necesarry packages inside the `virtualenv`:
 
 		(venv)$ pip install pyautogui
+    (venv)$ pip install numpy
 
-		
+
 #### Running Python code using IDLE3 in Virtual Environment
 
 To run IDLE3 while `venv` is activated use the following command. Then browse and open the file using `idle3`.
@@ -37,5 +38,4 @@ To run IDLE3 while `venv` is activated use the following command. Then browse an
 * [Pyautogui Examples](https://pyautogui.readthedocs.io/en/latest/introduction.html#examples "Pyautogui Examples")
 * [Chapter 18 – Controlling the Keyboard and Mouse with GUI Automation](https://automatetheboringstuff.com/chapter18/ "Chapter 18 – Controlling the Keyboard and Mouse with GUI Automation")
 
-### This application is still in development phase. 
-
+### This application is still in development phase.
