@@ -1,5 +1,6 @@
 Google Chrome offline game (T Rex) bot using Python.
-** You need to turn off your internet connection to run this program. **
+
+**You need to turn off your internet connection to run this program.**
 
 ### How to use
 
